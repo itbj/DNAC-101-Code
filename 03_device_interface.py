@@ -11,7 +11,7 @@ def get_device_list():
     token = get_auth_token() # Get Token
     url = "https://sandboxdnac.cisco.com/api/v1/network-device"
     hdr = {'x-auth-token': token, 'content-type' : 'application/json'}
-    resp = requests.get(url, headers=hdr)  # Make the Get Request
+    resp = requests.get(url, headers=hdr, verify=False)  # Make the Get Request
     device_list = resp.json()
     get_device_id(device_list)
 
@@ -31,7 +31,7 @@ def get_device_int(device_id):
     url = "https://sandboxdnac.cisco.com/api/v1/interface"
     hdr = {'x-auth-token': token, 'content-type' : 'application/json'}
     querystring = {"macAddress": device_id} # Dynamically build the querey params to get device spefict Interface info
-    resp = requests.get(url, headers=hdr, params=querystring)  # Make the Get Request
+    resp = requests.get(url, headers=hdr, params=querystring, verify=False)  # Make the Get Request
     interface_info_json = resp.json()
     print_interface_info(interface_info_json)
 
@@ -56,7 +56,7 @@ def get_auth_token():
     Building out Auth request. Using requests.post to make a call to the Auth Endpoint
     """
     url = 'https://sandboxdnac.cisco.com/dna/system/api/v1/auth/token'       # Endpoint URL
-    resp = requests.post(url, auth=HTTPBasicAuth(DNAC_USER, DNAC_PASSWORD))  # Make the POST Request
+    resp = requests.post(url, auth=HTTPBasicAuth(DNAC_USER, DNAC_PASSWORD),verify=False)  # Make the POST Request
     token = resp.json()['Token']    # Retrieve the Token from the returned JSONhahhah
     return token    # Create a return statement to send the token back for later use
 
