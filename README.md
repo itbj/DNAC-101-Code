@@ -14,7 +14,15 @@ pip install requests
 You change the controller credentials either through environment variables or by editing the dnac_config.py file  
 ## Contributing  
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.  
-## URLS  
-[ We Can Ignore warnings in Python](https://zlliu.medium.com/7-more-things-i-never-knew-about-python-until-recently-c1deb84e637f)  
-[]()  
-[]()  
+<details>
+<summary>URLs</summary>
+
+**[ We Can Ignore warnings in Python](https://zlliu.medium.com/7-more-things-i-never-knew-about-python-until-recently-c1deb84e637f)  **  
+**[ We Can Ignore warnings in Python](https://zlliu.medium.com/7-more-things-i-never-knew-about-python-until-recently-c1deb84e637f)  **  
+</details>
+<details>
+<summary>展开查看代码</summary>
+<pre><code>
+System.out.println("Hello to see U!");
+</code></pre>
+</details>
