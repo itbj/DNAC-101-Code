@@ -2,9 +2,10 @@
 ## 20200209T1950 测试成功。 
 ## 20201122T0342 再次测试。 
 ## 20211211T2326 再次测试。 
-## 20220903T0247 Tested it again. Must change some code to work with DANC new version software. add verify=False for SSL communication. 
+## 20220903T0247 Tested it again. Must change some code to work with DNAC new version software. add verify=False for SSL communication. 
 ## 20221004T1815 We Can Ignore warnings in Python.
 ## 20240107T1503 Tested in Gulou. 🫎🫎🫎 :moose: 🫎🫎🫎  
+## 20240716T0605 Tested in ZCL, error.  
 
 This repository contains a few simple scripts to get started with Cisco DNA Center API.  
 You will need the requests[secure] python module.   
