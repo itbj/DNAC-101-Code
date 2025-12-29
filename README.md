@@ -5,6 +5,7 @@
 ## 20220903T0247 Tested it again. Must change some code to work with DNAC new version software. add verify=False for SSL communication. 
 ## 20221004T1815 We Can Ignore warnings in Python.
 ## 20240107T1503 Tested in Gulou. 🫎🫎🫎 :moose: 🫎🫎🫎  
+## 20240107T1503 Tested in Gu3lou2. 🫎🫎🫎 :moose: 🫎🫎🫎  2025-12-29 Mon 21:59:32  
 ## 20240716T0605 Tested in ZCL, error.  
 
 This repository contains a few simple scripts to get started with Cisco DNA Center API.  
