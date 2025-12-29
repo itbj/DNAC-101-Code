@@ -8,6 +8,7 @@
 ## 20240107T1503 Tested in Gu3lou2. 🫎🫎🫎 :moose: 🫎🫎🫎  2025-12-29 Mon 21:59:32  
 ## 20240716T0605 Tested in ZCL, error.  
 ## 20251229T2201 Tested in ZCL, zorin-os, python 3.12.3  
+## 2025-12-29 Mon 22:39:52 ZCL, mini vscode  
 
 This repository contains a few simple scripts to get started with Cisco DNA Center API.  
 You will need the requests[secure] python module.   
